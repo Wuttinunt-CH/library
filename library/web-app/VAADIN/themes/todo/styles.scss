@@ -1,0 +1,303 @@
+//$v-app-background-color: hsl(520,100%,95%);
+
+@import "../valo/valo";
+
+.todo {
+	@include valo;
+
+background-image: url("img/bb.jpg");
+	
+.myButtonSearch {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButtonSearch:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.myButtonSearch:active {
+	position:relative;
+	top:1px;
+}
+
+.myButtonLogin {
+	-moz-box-shadow:inset 0px 1px 0px 0px #93eaf0;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #93eaf0;
+	box-shadow:inset 0px 1px 0px 0px #93eaf0;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #47d4ff), color-stop(1, #0096cc));
+	background:-moz-linear-gradient(top, #47d4ff 5%, #0096cc 100%);
+	background:-webkit-linear-gradient(top, #47d4ff 5%, #0096cc 100%);
+	background:-o-linear-gradient(top, #47d4ff 5%, #0096cc 100%);
+	background:-ms-linear-gradient(top, #47d4ff 5%, #0096cc 100%);
+	background:linear-gradient(to bottom, #47d4ff 5%, #0096cc 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#47d4ff', endColorstr='#0096cc',GradientType=0);
+	background-color:#47d4ff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #27c2d6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 11px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #34b087;
+}
+.myButtonLogin:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0096cc), color-stop(1, #47d4ff));
+	background:-moz-linear-gradient(top, #0096cc 5%, #47d4ff 100%);
+	background:-webkit-linear-gradient(top, #0096cc 5%, #47d4ff 100%);
+	background:-o-linear-gradient(top, #0096cc 5%, #47d4ff 100%);
+	background:-ms-linear-gradient(top, #0096cc 5%, #47d4ff 100%);
+	background:linear-gradient(to bottom, #0096cc 5%, #47d4ff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0096cc', endColorstr='#47d4ff',GradientType=0);
+	background-color:#0096cc;
+}
+.myButtonLogin:active {
+	position:relative;
+	top:1px;
+}
+
+.buttonLogout {
+  background-image: url(img/logout2.gif);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  width: 78px;
+  height: 33px;
+  border: 0px;
+  margin: 7px 0 5px 7px;
+  padding: 3px 0 6px 0;
+  cursor: hand;
+  cursor: pointer;
+  color: #2C2C2C;
+  font-family: Tahoma;
+  font-size: 11px;
+}
+
+.myButtonCancel {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100));
+	background:-moz-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+	background:-webkit-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+	background:-o-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+	background:-ms-linear-gradient(top, #fe1a00 5%, #ce0100 100%);
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100',GradientType=0);
+	background-color:#fe1a00;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 11px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButtonCancel:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00));
+	background:-moz-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+	background:-webkit-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+	background:-o-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+	background:-ms-linear-gradient(top, #ce0100 5%, #fe1a00 100%);
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00',GradientType=0);
+	background-color:#ce0100;
+}
+.myButtonCancel:active {
+	position:relative;
+	top:1px;
+}
+
+.fancylabel {
+    
+    
+    color: red;
+    
+}
+
+.redCenterLabel {
+    
+    
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.blueLabel {
+	color: #306EFF;
+}
+.blueLabel2 {
+	color: #368AFF;
+	text-align: center;
+	font-weight: bold;
+}
+.orangeLabel {color: #FF6C36;}
+
+}
+
+
+
+
+.v-nativebutton-borderless {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+
+.v-label-strike {
+	text-decoration: line-through;
+}
+
+.FontAwesome {
+	font-size: 20px;
+}
+
+.v-table {}
+  .v-table-header-wrap {}
+    .v-table-header {}
+      .v-table-header-cell {}
+        .v-table-resizer {} /* Column resizer handle. */
+        .v-table-caption-container {}
+  .v-table-body {}
+    .v-table-row-spacer {}
+    .v-table-table {}
+      .v-table-row {}
+        .v-table-cell-content {}
+
+
+.v-filterselect { }
+  .v-filterselect-input { }
+  .v-filterselect-button { }
+
+// Under v-overlay-container
+.v-filterselect-suggestpopup { }
+  .popupContent { }
+    .v-filterselect-prevpage,
+      .v-filterselect-prevpage-off { }
+    .v-filterselect-suggestmenu { }
+      .gwt-MenuItem { }
+    .v-filterselect-nextpage,
+      .v-filterselect-nextpage-off { }
+    .v-filterselect-status { }
+
+.v-form {}
+.v-form legend
+.v-form fieldset {}
+.v-form-error {}
+.v-form-errormessage {}
+.v-form-description {}
+
+.v-form fieldset {
+    border: thin solid;
+}
+
+.v-formlayout {}
+.v-formlayout .v-caption {}
+
+/* Columns in a field row. */
+.v-formlayout-contentcell {} /* Field content. */
+.v-formlayout-captioncell {} /* Field caption. */
+.v-formlayout-errorcell {}   /* Field error indicator. */
+
+/* Overall style of field rows. */
+.v-formlayout-row {}
+.v-formlayout-firstrow {}
+.v-formlayout-lastrow {}
+
+/* Required field indicator. */
+.v-formlayout .v-required-field-indicator {}
+.v-formlayout-captioncell .v-caption
+        .v-required-field-indicator {}
+
+
+/* Error indicator. */
+.v-formlayout-cell .v-errorindicator {}
+.v-formlayout-error-indicator .v-errorindicator {}
+
+.v-csslayout-spacing .v-button {margin-right: 5px}
+
+.boldheader .v-grid-cell {
+    font-weight: bold;
+    text-align: center;
+}
+
+.v-grid-cell .v-textfield {
+    margin-top: 6px;
+}
+
+.v-grid-cell.rightalign {
+    text-align: right;
+}
+
+.v-grid-cell.supercell {
+    background: pink;
+}
+
+.my_bg {
+	background: #FF0000;
+	color: red;
+}
+
+.v-textfield-labelstyle {
+        background: none repeat scroll 0 0 #F5F5F5;
+        border-color: #FF0000;
+      
+}
+
+
+.blue .v-button-caption {
+    font-size: 8pt;
+    //font-weight: bold;
+    color: blue;
+}
+
+.custom-label{
+color: #29272B;
+//font-weight: bold;
+//display: block;
+//width: 350px;
+//height: 400px;
+//float: left;
+font-size: 15px;
+}
+
